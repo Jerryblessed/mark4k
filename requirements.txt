@@ -1,0 +1,8 @@
+flask
+flask-sqlalchemy
+flask-login
+requests
+fpdf2
+pypdf
+python-dotenv
+werkzeug

@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block body %}
+<div class="auth-container">
+    <div class="modal">
+        <h2 style="color:var(--gold); text-align:center;">MARK4K REGISTER</h2>
+        <form method="POST">
+            <div class="fld"><label>Username</label><input type="text" name="username" required></div>
+            <div class="fld"><label>Password</label><input type="password" name="password" required></div>
+            <button type="submit" class="btn bgo" style="width:100%">Register</button>
+        </form>
+        <p style="text-align:center; margin-top:15px; font-size:12px;">Back to <a href="{{ url_for('main.login') }}" style="color:var(--gold)">Login</a></p>
+    </div>
+</div>
+{% endblock %}
